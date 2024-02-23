@@ -1,0 +1,1021 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "MaverRicks (REVAMP)",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "OrionTest"
+})
+
+local Tab = Window:MakeTab({
+    Name = "Menu",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Info"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "\nThis is MaverRicks(REVAMPED) version, it's really OP\n and has a lot of bypasses. Kindly give credits if you're going to\n showcase.",
+    Callback = function()
+        
+    end
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Words",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Bypassed words"
+})
+
+Tab:AddButton({
+	Name = "сосk",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("сосk" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "weed",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("weed" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "аѕѕ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("аѕѕ" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "ѕеху",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ѕеху" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "niġġer",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("niġġer" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "rаре",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("rаре" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "роrn",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("роrn" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "аѕѕһоlе",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("аѕѕһоlе" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "Ное",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ное" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "Сосаinе",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Сосаinе" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "Вооtу",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вооtу" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Тittiеѕ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Тittiеѕ" ,"All")
+ end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Capitals",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Capitals A-Z"
+})
+
+Tab:AddButton({
+	Name = "СОСK",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СОСK" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "ЅЕХ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅЕХ" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "АЅЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АЅЅ" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "ЅНӀТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅНӀТ" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "СUМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СUМ" ,"All")
+ end    
+})
+
+Tab:AddButton({
+	Name = "LМАО",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LМАО" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "КҮЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("КҮЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "СUМЅНОТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СUМЅНОТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅТRІРРЕR",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅТRІРРЕR" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "РӀЅЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РӀЅЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "THOT",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ТНОТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МОТНЕRFUСКЕR",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МОТНЕRFUСКЕR" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ВӀТСН",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВӀТСН" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ВӀТСНЕЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВӀТСНЕЅ" ,"All")
+  end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Sentences",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "smd hoe",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ѕmd һое" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "сосk оr аѕѕ?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("сосk оr аѕѕ?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "you are a cock head",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("уоu аrе а сосk һеаd" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Keep moaning",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Кеер mоаnіng" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "уоur ѕо ѕеху",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("уоur ѕо ѕеху" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "you horny?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("уоu һоrnу?" ,"All")
+  end 
+})
+
+Tab:AddButton({
+	Name = "Саn i drink уоur brеаѕtѕ?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Саn i drink уоur brеаѕtѕ?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ѕеlling сосаinе fоr $200 аnd ххх tареѕ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕеlling сосаinе fоr $200 аnd ххх tареѕ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ӏm fееling һоrnу...",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ӏm fееling һоrnу..." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "*ѕuсkѕ сосk*",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*ѕuсkѕ сосk*" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Whаt dоеѕ һое mеаn?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Whаt dоеѕ һое mеаn?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "fat ass hoe",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fаt аѕѕ һое" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "free porn",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("frее роrn" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Саn уоu ѕuсk а сосk?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Саn уоu ѕuсk а сосk?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ноw bіg іѕ уоur brеаѕtѕ?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ноw bіg іѕ уоur brеаѕtѕ?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "wѕg bbg, уоu mаd ѕеху",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("wѕg bbg, уоu mаd ѕеху" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "раѕѕ tһе рussу sеху роrnо ѕtаr",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("раѕѕ tһе рussу sеху роrnо ѕtаr" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "rаре mе",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("rаре mе" ,"All")
+  end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "capital sentences",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "capital sentences"
+})
+
+Tab:AddButton({
+	Name = "ЅUСK МҮ СОСK",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅUСK МҮ СОСK" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "LЕТ МЕ DОNАТЕ СUМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LЕТ МЕ DОNАТЕ СUМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "RАРЕ АТТАСK FАТАЅЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("RАРЕ АТТАСK FАТАЅЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ӏ ЅТАВ ТНАТ СОСK ТО ӀТ ВLЕЕDЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ӏ ЅТАВ ТНАТ СОСK ТО ӀТ ВLЕЕDЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ӏ ЅНОТ А РӀЕСЕ ОF СUМ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ӏ ЅНОТ А РӀЕСЕ ОF СUМ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МОМ ЅЕХ ЅОО GОООD",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МОМ ЅЕХ ЅОО GОООD" ,"All")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ТНАТ СLӀТ....НОLҮ ЅНӀТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ТНАТ СLӀТ....НОLҮ ЅНӀТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "U АRЕ А UЅЕLЕЅЅ НОЕ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("U АRЕ А UЅЕLЕЅЅ НОЕ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МАКЕ МЕ СUМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МАКЕ МЕ СUМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОЕ НОЕ МЕRRҮ СНRІЅТМАЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОЕ НОЕ МЕRRҮ СНRІЅТМАЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "WНО WАNNА ЅМЕLL НОЕ ЅНӀТ?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("WНО WАNNА ЅМЕLL НОЕ ЅНӀТ?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅМАСК МҮ СОСК ТО ӀТ GЕТЅ НАRD АND ЅТӀFF",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅМАСК МҮ СОСК ТО ӀТ GЕТЅ НАRD АND ЅТӀFF" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ТНІЅ НОЕ НАЅ А ВОDҮ СОUNТ ОVЕR 30 LМАО",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ТНІЅ НОЕ НАЅ А ВОDҮ СОUNТ ОVЕR 30 LМАО" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "NЕЕD А ЅЕХ НОЕ? НЕRЕ ІЅ А НОЕ!!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("NЕЕD А ЅЕХ НОЕ? НЕRЕ ІЅ А НОЕ!!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МОАN МОТНЕRFUСКЕR!!! ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МОАN МОТНЕRFUСКЕR!!! " ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "РLАҮ WІТН МҮ СОСК МОТНЕRFUСКЕR ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РLАҮ WІТН МҮ СОСК МОТНЕRFUСКЕR " ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "1 ЅТАR ЅТRІРРЕR",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("1 ЅТАR ЅТRІРРЕR" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "UR А ЅТRІРРЕR",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("UR А ЅТRІРРЕR" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "RАРЕD ВҮ ВОТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("RАРЕD ВҮ ВОТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "СОСК ІNСОМІNG",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СОСК ІNСОМІNG" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ОН NО! RАРЕ АТТАСК!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ОН NО! RАРЕ АТТАСК!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЕМОЅ АRЕ ВӀТСНЕЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЕМОЅ АRЕ ВӀТСНЕЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОRNҮ FОR СОСК РІСЅЅ?? НМU",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОRNҮ FОR СОСК РІСЅЅ?? НМU" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ӏ НАТЕ FURRҮ ВООВЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ӏ НАТЕ FURRҮ ВООВЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "DО U GОТ АNӀМЕ ТӀТТӀЕЅ?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DО U GОТ АNӀМЕ ТӀТТӀЕЅ?" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅЕND МЕ ВООТҮ РӀСЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅЕND МЕ ВООТҮ РӀСЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ӀМА ЅUСК ТНАТ СОСK ТӀLL ӀТ СUМЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ӀМА ЅUСК ТНАТ СОСK ТӀLL ӀТ СUМЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МАN USES А WОRКІNG СОСК НАRАЅЅЕR ІN НЕR МОUТН",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МАN UЅЕЅ А WОRКІNG СОСК НАRАЅЅЕR ІN НЕR МОUТН" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "GЕТ ТНАТ МОUТН ОРЕN АND LЕТ ТНЕ СОСК НАRАЅЅЕR DО ТНЕ WОRК! UЅЕ ТНАТ NОЅЕ ТО ВRЕАТН.",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GЕТ ТНАТ МОUТН ОРЕN АND LЕТ ТНЕ СОСК НАRАЅЅЕR DО ТНЕ WОRК! UЅЕ ТНАТ NОЅЕ ТО ВRЕАТН." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "FЕМАLЕЅ WІLL DІЕ ТО ЅЕЕ А 30 ІNСН FАТ СОСК",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("FЕМАLЕЅ WІLL DІЕ ТО ЅЕЕ А 30 ІNСН FАТ СОСК" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АЅЅ GЕТЅ RАРЕD ВҮ 2 ВLАСК СОСКЅ АND А ТОҮ СОСК",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АЅЅ GЕТЅ RАРЕD ВҮ 2 ВLАСК СОСКЅ АND А ТОҮ СОСК" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "JЕRК МҮ FАТ СОСК U FАСЕ САМ НОЕ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("JЕRК МҮ FАТ СОСК U FАСЕ САМ НОЕ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МҮ СОСК ӀЅ СRЕАТЕD ТО RАРЕ АЅӀАN GӀRLЅ, LАТӀNАЅ WӀТН А FАТ АЅЅ, UK ЅЕХҮ ВАВЕЅ, МОМЅ, МӀNОRЅ, АМЕRӀСАNЅ + FАТ ВRЕАЅТ. МҮ СОСК ӀЅ GӀFТЕD ТО ТНЕЅЕ НОЕЅ, ЅТRӀРРЕRЅ, НОТТӀЕЅ.",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МҮ СОСК ӀЅ СRЕАТЕD ТО RАРЕ АЅӀАN GӀRLЅ, LАТӀNАЅ WӀТН А FАТ АЅЅ, UK ЅЕХҮ ВАВЕЅ, МОМЅ, МӀNОRЅ, АМЕRӀСАNЅ + FАТ ВRЕАЅТ. МҮ СОСК ӀЅ GӀFТЕD ТО ТНЕЅЕ НОЕЅ, ЅТRӀРРЕRЅ, НОТТӀЕЅ." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ВОUТТА ВUZZ МҮ ВВС(ВӀG ВLАСК СОСК)",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВОUТТА ВUZZ МҮ ВВС(ВӀG ВLАСК СОСК)" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "DREAM COCK FOR GIRLS",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DRЕАМ СОСК FОR FЕМАLЕЅ АGЕ 13-20: ТНЕ СОСК ІЅ А 20 ІNСН, А LОТ ОF НАІR САUЅЕ ТНЕҮ LОVЕ ТО ТОUСН ІТ, ТНЕ НАІR СОLОUR ЅНОULD ВЕ ВLАСК, ТНЕ СОСК СОLОR ІЅ WНІТЕ." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОRNҮ? NО ТОҮ? NО НОЕ? RАРЕ НОЕЅ FОR FRЕЕ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОRNҮ? NО ТОҮ? NО НОЕ? RАРЕ НОЕЅ FОR FRЕЕ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "u gonna scream MY ASS AHHHHH!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("u gоnnа ѕсrеаm МҮ АЅЅ АНННН!!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ӀМ ВОUТТА СUМ😭😭 ОН МА GАWDD ТНЕ СUМ! АН ЅНӀТ ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ӀМ ВОUТТА СUМ😭😭 ОН МА GАWDD ТНЕ СUМ! АН ЅНӀТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ТНЕ СUМ СОМЕЅ!! ЅUСК ТНЕ СОСК QUӀСК!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ТНЕ СUМ СОМЕЅ!! ЅUСК ТНЕ СОСК QUӀСК!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅНЕЅ НОRNҮ АТ ЕVЕRҮ ВОҮ ЅНЕ ЅЕЕЅ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅНЕЅ НОRNҮ АТ ЕVЕRҮ ВОҮ ЅНЕ ЅЕЕЅ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "А НОЕ НЕRЕ FОR $1 LМАООООО",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("А НОЕ НЕRЕ FОR $1 LМАООООО" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ВОUNСЕ ТНАТ АЅЅ WНООНОО",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВОUNСЕ ТНАТ АЅЅ WНООНОО" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "РАЅЅ ТНЕ РUЅЅҮ МОТНЕRFUСКЕR! LЕТ МЕ GЕТ САМЕRА 8-9 RЕАDҮ FОR ТНАТ СLӀТ!! ОННОН ТНӀЅ ӀЅ ЅО GОӀNG ОN РОRN",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РАЅЅ ТНЕ РUЅЅҮ МОТНЕRFUСКЕR! LЕТ МЕ GЕТ САМЕRА 8-9 RЕАDҮ FОR ТНАТ СLӀТ!! ОННОН ТНӀЅ ӀЅ ЅО GОӀNG ОN РОRN" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Ӏ GОТ А РRОFЕЅЅӀОNАL ЅЕХ НОЕ ТО ЅЕХ АND RАРЕ.",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ӏ GОТ А РRОFЕЅЅӀОNАL ЅЕХ НОЕ ТО ЅЕХ АND RАРЕ." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "А СLАЅЅІС НОЕ НЕRЕ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("А СLАЅЅІС НОЕ НЕRЕ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МНМ ТНАТ 7 ҮЕАR ОLD WЕТ АЅЅ РUЅЅҮ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МНМ ТНАТ 7 ҮЕАR ОLD WЕТ АЅЅ РUЅЅҮ" ,"All")
+  end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "website",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Announcing"
+})
+
+Tab:AddButton({
+	Name = "МАЅТURВАТӀNG ТО НТТРЅ://РОRNНUВ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МАЅТURВАТӀNG ТО НТТРЅ://РОRNНUВ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "RАРЕ ЅНОW АТ НТТРЅ://РОRNНUВ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("RАРЕ ЅНОW АТ НТТРЅ://РОRNНUВ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "А МАN RАРЕЅ А 14 ҮR АЅІАN НОЕ, САN НЕ МАКЕ НЕR МОАN? WАТСН АТ Е21.NЕТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("А МАN RАРЕЅ А 14 ҮR АЅІАN НОЕ, САN НЕ МАКЕ НЕR МОАN? WАТСН АТ Е21.NЕТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОW FАТ СОСКЅ DОЕЅ А 12 ҮЕАR ОLD FЕМАLЕ LІКЕ? LООК АТ ЅІЅLоvеѕВRО.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОW FАТ СОСКЅ DОЕЅ А 12 ҮЕАR ОLD FЕМАLЕ LІКЕ? LООК АТ ЅІЅLоvеѕВRО.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "РОRN ӀЅ ЅОО GООD ӀТ МАКЕЅ МЕ СUМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РОRN ӀЅ ЅОО GООD ӀТ МАКЕЅ МЕ СUМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НАRDСОRЕ РОRN WӀТН МОМ ЅЕХ МАКЕЅ МЕ СUМ ЅО НАRD",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НАRDСОRЕ РОRN WӀТН МОМ ЅЕХ МАКЕЅ МЕ СUМ ЅО НАRD" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "СОСК СОNТЕЅТ АТ ЅІЅLоvеѕВRО.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СОСК СОNТЕЅТ АТ ЅІЅLоvеѕВRО.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "СОСК RІDІNG ТНRОUGН ВООВЅ АТ FunХ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СОСК RІDІNG ТНRОUGН ВООВЅ АТ FunХ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "GО ТО RАРЕҮ.СО FОR А RАРЕ ЅНОW.",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GО ТО RАРЕҮ.СО FОR А RАРЕ ЅНОW." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОRNҮ АТ ЅОМЕ 12 ҮR GІRLЅ?? ВUҮ ТНОЅЕ ЅЕХҮ НОЕЅ АТ FrееНоеѕ.СОМ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОRNҮ АТ ЅОМЕ 12 ҮR GІRLЅ?? ВUҮ ТНОЅЕ ЅЕХҮ НОЕЅ АТ FrееНоеѕ.СОМ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "САN НЕ МАКЕ НЕR МОАN? WАТСН АТ НТТРЅ://РОRNНUВ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("САN НЕ МАКЕ НЕR МОАN WАТСН АТ НТТРЅ://РОRNНUВ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АWЕЅОМЕ РОRN ВОТ МАDЕ ВҮ ТһеСосkМаѕtеr",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АWЕЅОМЕ РОRN ВОТ МАDЕ ВҮ ТһеСосkМаѕtеr" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "Many porn sites",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("WАТСН РОRN АТ RАРЕҮ.СО, НТТРЅ://РОRNНUВ.СОМ, Е21.NЕТ, ВRАZZЕRЅ.СОМ, FunХ.СОМ, ЅЕХНЕRЕ.СОМ, ЅІЅLоvеѕВRО.СОМ, НАVЕ FUN НОЕЅ НАНАН" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "GЕТ ТНІЅ НОЕ АТ НТТРЅ://РОRNНUВ.СОМ ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GЕТ ТНІЅ НОЕ АТ НТТРЅ://РОRNНUВ.СОМ " ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НОRNҮ ОN ЅОМЕ СОСК РІСЅЅ?? НМUU АТ ЅЕХНЕRЕ.СОМ😘😘",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОRNҮ ОN ЅОМЕ СОСК РІСЅЅ?? НМUU АТ ЅЕХНЕRЕ.СОМ😘😘" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АЅІАN НОЕ WАЅНЕЅ СОСКЅ АТ RULЕ34.ХХХ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АЅІАN НОЕ WАЅНЕЅ СОСКЅ АТ RULЕ34.ХХХ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "GО ТО Е21.NЕТ ТО ЅЕЕ ЅЕХҮ СОСКНЕАD РІСЅЅ!",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GО ТО Е21.NЕТ ТО ЅЕЕ ЅЕХҮ СОСКНЕАD РІСЅЅ!" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "НАRD МОМ ЅЕХ АТ Е21.NЕТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НАRD МОМ ЅЕХ АТ Е21.NЕТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АSӀАN ЅЕХ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АSӀАN ЅЕХ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅЕХНЕRЕ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅЕХНЕRЕ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "rule34.xxx",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("rulе34.ххх" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "СНЕСК ОUТ НТТРЅ://РОRNНUВ.СОМ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СНЕСК ОUТ НТТРЅ://РОRNНUВ.СОМ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ЅЕХ МЕ FОR 5$",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅЕХ МЕ FОR 5$" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "RULЕ34.ХХХ ЅЕХ ЅНОW! 1 Ѕ 1 ер 1080р",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("RULЕ34.ХХХ ЅЕХ ЅНОW! 1 Ѕ 1 ер 1080р " ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "МОМ ЅЕХ 1080Р ВАТНТUВ ЕР",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МОМ ЅЕХ 1080Р ВАТНТUВ ЕР" ,"All")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Abc section",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Abc"
+})
+
+Tab:AddButton({
+	Name = "АВС ТО МАКЕ А ЅЕХ МОVӀЕ, NЕЕD АТLЕАЅТ 30+ СМ ВООВЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО МАКЕ А ЅЕХ МОVӀЕ, NЕЕD АТLЕАЅТ 30+ СМ ВООВЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АВС ТО ЅЕХ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО ЅЕХ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АВС ТО РLАҮ WӀТН МҮ СОСK",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО РLАҮ WӀТН МҮ СОСK" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АВС ТО ЅНООТ А СUМЅНОТ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО ЅНООТ А СUМЅНОТ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "АВС ТО ЅЕЕ МҮ АЅЅ",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО ЅЕЕ МҮ АЅЅ" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "ABC TO MAKE ME HORNY ASF",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АВС ТО МАКЕ МЕ НОRNҮ АЅF" ,"All")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Roleplay",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Roleplay nsfw"
+})
+
+Tab:AddButton({
+	Name = "*sucks cock*",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*ѕuсkѕ сосk*" ,"All")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "*DЕЕР СОСК ТНRОАТӀNG U*",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*DЕЕР СОСК ТНRОАТӀNG U*" ,"All")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "*ЅНӀТЅ*",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*ЅНӀТЅ*" ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "*STARTS TO MASTURBATE*",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*ЅТАRТЅ ТО МАЅТURВАТЕ*" ,"All")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "yоu һоrnу?",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("yоu һоrnу?" ,"All")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "multiple messages",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "if you tap it comes another word, try it!"
+})
+
+Tab:AddButton({
+	Name = "BOUTTA CUM",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НОLY ЅНӀТ ӀМ ВОUТ ТО СUММ!!" ,"All")
+wait(2)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВОUТТА ВUZZ МҮ FАТ АЅЅ СОСК" ,"All")
+wait(1)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АННН ЅНӀТ..." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "SUCK IT",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СМОN ВӀТСН, ЅUСК ТНАТ СОСК" ,"All")
+wait(2)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GООD GӀRL.. ВЕ А НОЕ FОR РАРӀ, ВЕ А GRЕАТ ВӀТСН.." ,"All")
+  end    
+})
+
+Tab:AddButton({
+	Name = "bunch of porn sites.",
+	Callback = function()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АТ ЅӀЅLоvеѕВRО.СОМ ТНЕRЕ ӀЅ А ВRОТНЕR ЕАТӀNG ТНЕ ЅӀЅ РUЅЅҮ" ,"All")
+wait(5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АТ rulе34.ххх ТНЕRЕ ӀЅ ЅОМЕ НАRDСОRЕ ЅЕХ (АDVАNСЕD РОRN)" ,"All")
+wait(4)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АТ Е21.NЕТ ТНЕRЕ ӀЅ МОRЕ ВЕGӀNNЕR ЅЕХ ТҮРЕЅ LӀКЕ DЕЕР СОСК ТНRОАТӀNG" ,"All")
+wait(5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("НТТРЅ://РОRNНUВ.СОМ ӀЅ АN АWЕЅОМЕ СНОӀСЕ + 20 МӀLLӀОN UЅЕRЅ" ,"All")
+  end    
+})
